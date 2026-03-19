@@ -1,0 +1,3 @@
+../Core/Src/SootLoad.c:40:6:vSootLoadDataProcessing	24	static
+../Core/Src/SootLoad.c:135:10:u16GetSootLoadValue	4	static
+../Core/Src/SootLoad.c:148:9:u8GetSootLoadBadDataTimeoutStatus	4	static

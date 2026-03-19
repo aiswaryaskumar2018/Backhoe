@@ -1,0 +1,12 @@
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:515:10:void touchgfx::Drawable::setVisible(bool)	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../TouchGFX/gui/include/gui/screen_menu_screen/Screen_menuView.hpp:11:13:Screen_menuView::~Screen_menuView()	16	static
+../TouchGFX/gui/include/gui/screen_menu_screen/Screen_menuView.hpp:11:13:virtual Screen_menuView::~Screen_menuView()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:4:1:Screen_menuView::Screen_menuView()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:9:6:virtual void Screen_menuView::setupScreen()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:14:6:virtual void Screen_menuView::tearDownScreen()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:19:6:virtual void Screen_menuView::handleTickEvent()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:29:6:void Screen_menuView::SelectScreen()	16	static
+../TouchGFX/gui/src/screen_menu_screen/Screen_menuView.cpp:71:6:void Screen_menuView::ChangeScreen()	16	static

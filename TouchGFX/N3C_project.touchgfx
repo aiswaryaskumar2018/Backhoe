@@ -1,0 +1,2192 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "screen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background_img",
+            "X": -1,
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "background_image.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "MIL_lamp_disable",
+            "X": 146,
+            "Y": 3,
+            "Width": 28,
+            "Height": 20,
+            "RelativeFilename": "engine_malfunction_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "MIL_lamp_enable",
+            "X": 146,
+            "Y": 3,
+            "Width": 28,
+            "Height": 20,
+            "RelativeFilename": "engine_malfunction_enable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "fast_vehicle_disable",
+            "X": 186,
+            "Y": 1,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "RelativeFilename": "fast_vehicle_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "fast_vehicle_enable",
+            "X": 187,
+            "Y": 1,
+            "Width": 24,
+            "Height": 24,
+            "Visible": false,
+            "RelativeFilename": "fast_vehicle_enable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "DPF_lamp_disable",
+            "X": 113,
+            "Y": 1,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "diesel_particulate_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "DPF_lamp_enable",
+            "X": 113,
+            "Y": 1,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "DPF_lamp_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "slow_vehicle_disable",
+            "X": 73,
+            "Y": 7,
+            "Width": 32,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "slow_vehicle_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "slow_vehicle_enable",
+            "X": 73,
+            "Y": 7,
+            "Width": 32,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "slow_vehicle_enable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "FourWheel_drive_disable",
+            "X": 222,
+            "Y": 1,
+            "Width": 16,
+            "Height": 24,
+            "RelativeFilename": "all_drive_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "FourWheel_drive_enable",
+            "X": 222,
+            "Y": 1,
+            "Width": 16,
+            "Height": 24,
+            "RelativeFilename": "all_drive_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "AF_choke_disable",
+            "X": 252,
+            "Y": 3,
+            "Width": 28,
+            "Height": 20,
+            "RelativeFilename": "air_filter_disable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "AF_choke_enable",
+            "X": 252,
+            "Y": 3,
+            "Width": 28,
+            "Height": 20,
+            "RelativeFilename": "AF_choke_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PCD_lamp_disable",
+            "X": 288,
+            "Y": 3,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "Gray-01.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "PCD_lamp_enable",
+            "X": 288,
+            "Y": 3,
+            "Width": 24,
+            "Height": 24,
+            "RelativeFilename": "Amber-01.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "scr_tempering_disable",
+            "X": 41,
+            "Y": 3,
+            "Width": 24,
+            "Height": 20,
+            "RelativeFilename": "engine_emission_disable_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "scr_tempering_enable",
+            "X": 41,
+            "Y": 3,
+            "Width": 24,
+            "Height": 20,
+            "RelativeFilename": "engine_emission_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "filter_clogged_disable",
+            "X": 10,
+            "Y": 2,
+            "Width": 20,
+            "Height": 24,
+            "RelativeFilename": "fluid_tt_disable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "filter_clogged_enable",
+            "X": 10,
+            "Y": 2,
+            "Width": 20,
+            "Height": 24,
+            "RelativeFilename": "fluid_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_unfilled",
+            "X": 261,
+            "Y": 52,
+            "Width": 48,
+            "Height": 140,
+            "RelativeFilename": "asstes-75.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_first",
+            "X": 277,
+            "Y": 164,
+            "Width": 20,
+            "Height": 24,
+            "Visible": false,
+            "RelativeFilename": "asstes-74.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_second",
+            "X": 283,
+            "Y": 142,
+            "Width": 20,
+            "Height": 24,
+            "Visible": false,
+            "RelativeFilename": "asstes-73.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_third",
+            "X": 288,
+            "Y": 123,
+            "Width": 16,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "asstes-72.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_fourth",
+            "X": 288,
+            "Y": 101,
+            "Width": 16,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "asstes-71.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_fifth",
+            "X": 283,
+            "Y": 77,
+            "Width": 20,
+            "Height": 24,
+            "Visible": false,
+            "RelativeFilename": "asstes-70.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "Trans_Oil_Temp_sixth",
+            "X": 276,
+            "Y": 57,
+            "Width": 20,
+            "Height": 23,
+            "Visible": false,
+            "RelativeFilename": "asstes-69.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_pressure_bar_unfilled",
+            "X": 10,
+            "Y": 52,
+            "Width": 48,
+            "Height": 136,
+            "RelativeFilename": "engine_oil_pressure_bar_unfilled.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_one",
+            "X": 23,
+            "Y": 169,
+            "Width": 20,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "ten.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_two",
+            "X": 20,
+            "Y": 158,
+            "Width": 16,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "nine.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_three",
+            "X": 17,
+            "Y": 145,
+            "Width": 16,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "eight.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_four",
+            "X": 14,
+            "Y": 134,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "seven.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_five",
+            "X": 13,
+            "Y": 121,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "six.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_six",
+            "X": 13,
+            "Y": 107,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "five.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_seven",
+            "X": 14,
+            "Y": 94,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "four.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_eight",
+            "X": 17,
+            "Y": 79,
+            "Width": 16,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "three.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_nine",
+            "X": 18,
+            "Y": 66,
+            "Width": 20,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "two.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_bar_ten",
+            "X": 23,
+            "Y": 54,
+            "Width": 20,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "one.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "tell_tale_img",
+            "X": 66,
+            "Y": 63,
+            "Width": 28,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "tell_tale_img.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "scr_fluid_enable",
+            "X": 252,
+            "Y": 101,
+            "Width": 24,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "scr_fluid_enable.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "engine_oil_pressure_img",
+            "X": 46,
+            "Y": 104,
+            "Width": 28,
+            "Height": 20,
+            "RelativeFilename": "engine_oil_pressue_vehicle.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "degree_icon",
+            "X": 303,
+            "Y": 33,
+            "Width": 16,
+            "Height": 12,
+            "RelativeFilename": "degree_celcius.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "degree_tt",
+            "X": 256,
+            "Y": 29,
+            "Width": 24,
+            "Height": 20,
+            "RelativeFilename": "degree_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "degree_tt_on",
+            "X": 256,
+            "Y": 29,
+            "Width": 24,
+            "Height": 20,
+            "RelativeFilename": "TransOilLampRed.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "fuel_tt",
+            "X": 25,
+            "Y": 224,
+            "Width": 8,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "fuel_tt.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "rpm_value",
+            "X": 76,
+            "Y": 83,
+            "Width": 169,
+            "Height": 83,
+            "TextId": "__SingleUse_H7SM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_MDK4",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "fuel_range",
+            "X": 17,
+            "Y": 199,
+            "Width": 70,
+            "Height": 16,
+            "Visible": false,
+            "TextId": "__SingleUse_D8XA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_M34N",
+              "UseBuffer": true,
+              "BufferSize": 7
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_8QO8",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "odo_value",
+            "X": 37,
+            "Y": 221,
+            "Width": 68,
+            "Height": 19,
+            "TextId": "__SingleUse_OO1K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_T814",
+              "UseBuffer": true,
+              "BufferSize": 7
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_MUYE",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "rpm_label",
+            "X": 146,
+            "Y": 154,
+            "Width": 25,
+            "Height": 17,
+            "TextId": "__SingleUse_TG7F",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedo_value",
+            "X": 125,
+            "Y": 172,
+            "Width": 68,
+            "Height": 32,
+            "TextId": "__SingleUse_G3MT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_8LQX",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "km_h_label",
+            "X": 181,
+            "Y": 188,
+            "Width": 29,
+            "Height": 16,
+            "TextId": "__SingleUse_7LCB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SOOT_LOAD_LABEL",
+            "X": 102,
+            "Y": 206,
+            "Width": 76,
+            "Height": 16,
+            "TextId": "__SingleUse_4JFC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "km_label",
+            "X": 109,
+            "Y": 225,
+            "Width": 16,
+            "Height": 12,
+            "TextId": "__SingleUse_EI3R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "soot_load",
+            "X": 176,
+            "Y": 206,
+            "Width": 31,
+            "Height": 15,
+            "TextId": "__SingleUse_YOKG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_DVMD",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "percent_label",
+            "X": 209,
+            "Y": 206,
+            "Width": 12,
+            "Height": 16,
+            "TextId": "__SingleUse_KBFF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "grams_label",
+            "X": 212,
+            "Y": 205,
+            "Width": 7,
+            "Height": 16,
+            "Visible": false,
+            "TextId": "__SingleUse_51AU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_EWR2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "trip_label",
+            "X": 200,
+            "Y": 221,
+            "Width": 32,
+            "Height": 17,
+            "TextId": "__SingleUse_9N7V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "trip_a_label",
+            "X": 240,
+            "Y": 219,
+            "Width": 6,
+            "Height": 9,
+            "TextId": "__SingleUse_PEAV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "trip_value",
+            "X": 247,
+            "Y": 220,
+            "Width": 52,
+            "Height": 19,
+            "TextId": "__SingleUse_Y2M4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_U9PB",
+              "UseBuffer": true,
+              "BufferSize": 5
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_DUV5",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "trip_b_label",
+            "X": 240,
+            "Y": 228,
+            "Width": 6,
+            "Height": 9,
+            "TextId": "__SingleUse_1DJM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "AP_LABEL",
+            "X": 230,
+            "Y": 203,
+            "Width": 18,
+            "Height": 17,
+            "Visible": false,
+            "TextId": "__SingleUse_OZ8C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Ap_value",
+            "X": 253,
+            "Y": 201,
+            "Width": 41,
+            "Height": 15,
+            "Visible": false,
+            "TextId": "__SingleUse_SL5F",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_XPI4",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_OOPG",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Ap_value_label",
+            "X": 296,
+            "Y": 204,
+            "Width": 21,
+            "Height": 12,
+            "Visible": false,
+            "TextId": "__SingleUse_8SMC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Volt_label",
+            "X": 34,
+            "Y": 30,
+            "Width": 9,
+            "Height": 17,
+            "TextId": "__SingleUse_IJ0U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "volt_value",
+            "X": 6,
+            "Y": 30,
+            "Width": 27,
+            "Height": 15,
+            "TextId": "__SingleUse_SZWW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_223H",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_XXHA",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Notification_label",
+            "X": 75,
+            "Y": 29,
+            "Width": 177,
+            "Height": 16,
+            "TextId": "__SingleUse_ULLF",
+            "TextRotation": "0",
+            "Color": {
+              "Green": 193,
+              "Blue": 87
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 2,
+            "Y": 220,
+            "Width": 32,
+            "Height": 17,
+            "TextId": "__SingleUse_QH9K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "degree_value",
+            "X": 279,
+            "Y": 30,
+            "Width": 24,
+            "Height": 19,
+            "TextId": "__SingleUse_SGJ0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6CB4",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bar_label",
+            "X": 217,
+            "Y": 63,
+            "Width": 27,
+            "Height": 16,
+            "Visible": false,
+            "TextId": "__SingleUse_J8RQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 320,
+            "Height": 240,
+            "Visible": false
+          },
+          {
+            "Type": "TextArea",
+            "Name": "trip_km_label",
+            "X": 300,
+            "Y": 225,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "TextId": "__SingleUse_394L",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "degree_icon_1",
+            "X": 300,
+            "Y": 202,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "degree_celcius.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CoolTempVal",
+            "X": 243,
+            "Y": 199,
+            "Width": 54,
+            "Height": 16,
+            "Visible": false,
+            "TextId": "__SingleUse_JYCN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6HM3",
+              "UseBuffer": true,
+              "BufferSize": 4
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "EngCoolTempWhiteLed",
+            "X": 230,
+            "Y": 196,
+            "Width": 24,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "CoolTempWrgWhite.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "EngCoolRedLed",
+            "X": 230,
+            "Y": 196,
+            "Width": 24,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "CoolTempWrgRed.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TripHrLbl",
+            "X": 298,
+            "Y": 225,
+            "Width": 18,
+            "Height": 15,
+            "Visible": false,
+            "TextId": "__SingleUse_M6O8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 247,
+              "Blue": 247
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TotHrLble",
+            "X": 103,
+            "Y": 225,
+            "Width": 20,
+            "Height": 17,
+            "Visible": false,
+            "TextId": "__SingleUse_PESN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SpnValue",
+            "X": 71,
+            "Y": 45,
+            "Width": 54,
+            "Height": 17,
+            "TextId": "__SingleUse_GVNQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 245,
+              "Blue": 245
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_IQVU",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FmiValue",
+            "X": 141,
+            "Y": 45,
+            "Width": 29,
+            "Height": 18,
+            "TextId": "__SingleUse_JH29",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_2QOW",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PcodeVal",
+            "X": 176,
+            "Y": 45,
+            "Width": 72,
+            "Height": 18,
+            "TextId": "__SingleUse_CSRP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_9MQ9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PopUpMsg",
+            "X": 65,
+            "Y": 62,
+            "Width": 191,
+            "Height": 15,
+            "TextId": "__SingleUse_A418",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 4,
+              "Green": 224,
+              "Blue": 103
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_PSGY",
+              "UseBuffer": true,
+              "BufferSize": 24
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DpfText",
+            "X": 105,
+            "Y": 206,
+            "Width": 41,
+            "Height": 17,
+            "Visible": false,
+            "TextId": "__SingleUse_V23Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 245,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "KpaText",
+            "X": 198,
+            "Y": 206,
+            "Width": 24,
+            "Height": 13,
+            "Visible": false,
+            "TextId": "__SingleUse_OUU1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 245,
+              "Blue": 245
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "KpaValue",
+            "X": 146,
+            "Y": 206,
+            "Width": 52,
+            "Height": 17,
+            "Visible": false,
+            "TextId": "__SingleUse_YZTU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 250,
+              "Blue": 250
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_BZAP",
+              "UseBuffer": true,
+              "BufferSize": 5
+            },
+            "Wildcard2": {
+              "TextId": "__SingleUse_SQT1",
+              "UseBuffer": true,
+              "BufferSize": 2
+            }
+          },
+          {
+            "Type": "Image",
+            "Name": "TransOIlTempRedLed",
+            "X": 244,
+            "Y": 104,
+            "Width": 24,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "TransOilLampRed.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "TransOilTempWhite",
+            "X": 244,
+            "Y": 104,
+            "Width": 24,
+            "Height": 20,
+            "Visible": false,
+            "RelativeFilename": "degree_tt.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "EngineOil_2Blue",
+            "X": 20,
+            "Y": 158,
+            "Width": 16,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "EngOiL_2.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "EngOil1_Blue",
+            "X": 23,
+            "Y": 170,
+            "Width": 20,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "EngOiL_1.png"
+          },
+          {
+            "Type": "TextureMapper",
+            "Name": "textureMapper3",
+            "X": 82,
+            "Y": 46,
+            "Width": 152,
+            "Height": 152,
+            "Visible": false,
+            "RenderingAlgorithm": "Nearest-neighbor",
+            "FileNameImage": "acelogo.png",
+            "LockBitmapToCenter": true,
+            "XBitmapPosition": 4.5,
+            "YBitmapPosition": 16.5,
+            "Scale": 0.6,
+            "LockOrigoToCenter": true,
+            "XOrigo": 76.0,
+            "YOrigo": 76.0,
+            "ZOrigo": 1000.0,
+            "CameraDistance": 1000.0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionRotateTextureMapper",
+              "ZAngle": 6.3,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 3500,
+              "ActionComponent": "textureMapper3"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionScaleTextureMapper",
+              "Scale": 1.0,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 4000,
+              "ActionComponent": "textureMapper3"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call screen change_to_menu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_menu"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "change_to_menu"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_menu",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "menu_bg",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "main screen bg-08.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_arrow_img",
+            "X": 9,
+            "Y": 78,
+            "Width": 24,
+            "Height": 16,
+            "RelativeFilename": "arrow-14.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "pcodes_arrow_img",
+            "X": 9,
+            "Y": 109,
+            "Width": 24,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "arrow-14.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "exit_arrow_img",
+            "X": 9,
+            "Y": 139,
+            "Width": 24,
+            "Height": 16,
+            "Visible": false,
+            "RelativeFilename": "arrow-14.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_menu change_to_brightnessScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_brightness"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_menu change_to_pcodesScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_pcodes"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_menu exit_from_menu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "screen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "change_to_brightnessScreen"
+          },
+          {
+            "Name": "change_to_pcodesScreen"
+          },
+          {
+            "Name": "exit_from_menu"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_brightness",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "brightness_bg",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "brightness bg-09.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_bar_bg",
+            "X": 64,
+            "Y": 98,
+            "Width": 192,
+            "Height": 44,
+            "RelativeFilename": "empty bar-14.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_1",
+            "X": 66,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_2",
+            "X": 85,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_4",
+            "X": 122,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_3",
+            "X": 104,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_5",
+            "X": 141,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_6",
+            "X": 160,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_7",
+            "X": 178,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_8",
+            "X": 197,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_9",
+            "X": 216,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "brightness_fill_bar_10",
+            "X": 234,
+            "Y": 98,
+            "Width": 20,
+            "Height": 44,
+            "Visible": false,
+            "RelativeFilename": "brightness_fill bar-1.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "brightness_percent_value",
+            "X": 117,
+            "Y": 60,
+            "Width": 87,
+            "Height": 38,
+            "TextId": "__SingleUse_P0Y1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_H0WP",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_brightness exit_from_Brightness"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "screen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "exit_from_Brightness"
+          }
+        ]
+      },
+      {
+        "Name": "Screen_pcodes",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "pcode_bg",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "pcodes bg-10.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "pcode_up_arrow",
+            "X": 300,
+            "Y": 31,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "up arrow-14.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "pcode_down_arrow",
+            "X": 300,
+            "Y": 213,
+            "Width": 16,
+            "Height": 12,
+            "Visible": false,
+            "RelativeFilename": "down arrow-14.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN1",
+            "X": 8,
+            "Y": 37,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_E3U8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_J7Y2",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN2",
+            "X": 8,
+            "Y": 55,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_G34H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6GPN",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN3",
+            "X": 8,
+            "Y": 73,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_Y473",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_9XJ6",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN4",
+            "X": 8,
+            "Y": 91,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_NGDU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_XEJ1",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN5",
+            "X": 8,
+            "Y": 110,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_P81K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_OAX5",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN6",
+            "X": 8,
+            "Y": 129,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_8VCW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_CPD9",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN7",
+            "X": 8,
+            "Y": 146,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_JVGW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_WEBW",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN8",
+            "X": 8,
+            "Y": 163,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_TDIW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_KXSB",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN9",
+            "X": 8,
+            "Y": 180,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_E5AF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_3HK7",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SPN10",
+            "X": 8,
+            "Y": 198,
+            "Width": 93,
+            "Height": 15,
+            "TextId": "__SingleUse_DE6C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_T3RQ",
+              "UseBuffer": true,
+              "BufferSize": 7
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI1",
+            "X": 114,
+            "Y": 37,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_5TFP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_GH9A",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI2",
+            "X": 114,
+            "Y": 55,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_A3MY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_Z1BA",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI3",
+            "X": 114,
+            "Y": 73,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_9FE8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_CSJR",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI4",
+            "X": 114,
+            "Y": 91,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_CRRH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_E3JA",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI5",
+            "X": 114,
+            "Y": 110,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_NR8S",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_2XGZ",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI6",
+            "X": 114,
+            "Y": 129,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_F6J2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_3TWJ",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI7",
+            "X": 114,
+            "Y": 146,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_9N79",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_5CTE",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI8",
+            "X": 114,
+            "Y": 163,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_72I9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_0XZA",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI9",
+            "X": 114,
+            "Y": 180,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_4JX7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_QU66",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "FMI10",
+            "X": 114,
+            "Y": 198,
+            "Width": 94,
+            "Height": 15,
+            "TextId": "__SingleUse_RPGK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_7Z2H",
+              "UseBuffer": true,
+              "BufferSize": 3
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE1",
+            "X": 227,
+            "Y": 37,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_F9WB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_6W2Z",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE2",
+            "X": 227,
+            "Y": 55,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_JXGD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_VRIS",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE3",
+            "X": 227,
+            "Y": 73,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_LGSJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_908M",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE4",
+            "X": 227,
+            "Y": 91,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_R82C",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_24EX",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE5",
+            "X": 227,
+            "Y": 110,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_GWBX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_0P3M",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE6",
+            "X": 227,
+            "Y": 129,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_X3MK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_SIEA",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE7",
+            "X": 227,
+            "Y": 146,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_3KLC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_HAT4",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE8",
+            "X": 227,
+            "Y": 163,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_B6EJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_UVT8",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE9",
+            "X": 227,
+            "Y": 180,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_8D7R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_QORF",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "PCODE10",
+            "X": 227,
+            "Y": 198,
+            "Width": 92,
+            "Height": 15,
+            "TextId": "__SingleUse_N3AU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_MZ92",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Screen_pcodes exit_from_PCODES"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "screen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "exit_from_PCODES"
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 320,
+      "Height": 240
+    },
+    "SelectedColorDepth": 32,
+    "StartupScreenName": "screen",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      32
+    ],
+    "AvailableLCDs": {
+      "32": "LCD32bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD32bpp": {
+        "Id": "LCD32bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F7/5G7",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../N3C.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.24.0"
+}

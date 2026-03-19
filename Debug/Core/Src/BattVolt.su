@@ -1,0 +1,2 @@
+../Core/Src/BattVolt.c:46:6:vBattVoltDataProcessing	24	static
+../Core/Src/BattVolt.c:147:10:get_battery_volt	4	static

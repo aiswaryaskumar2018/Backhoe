@@ -1,0 +1,6 @@
+../Core/Src/EngineOilPress.c:122:6:vEngineOilLevelGauge	16	static
+../Core/Src/EngineOilPress.c:309:6:SetEngineOilLevelGaugeBars	16	static
+../Core/Src/EngineOilPress.c:321:9:GetEngineOilLevelGaugeBars	4	static
+../Core/Src/EngineOilPress.c:333:6:SetEngineOilLevelGaugePercentage	16	static
+../Core/Src/EngineOilPress.c:345:9:GetEngineOilLevelGaugePercentage	4	static
+../Core/Src/EngineOilPress.c:350:9:GetEngineOilPressWarningLampStatus	8	static

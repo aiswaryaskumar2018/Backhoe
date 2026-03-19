@@ -1,0 +1,5 @@
+../Core/Src/TransOilPressreure.c:48:10:Trans_TRANS_OIL_pressure_process	16	static
+../Core/Src/TransOilPressreure.c:146:9:GetTransOilBar	4	static
+../Core/Src/TransOilPressreure.c:151:10:get_Trans_oil_pressure	16	static
+../Core/Src/TransOilPressreure.c:158:9:GetTrnsOIlPressureLampWarningStatus	8	static
+../Core/Src/TransOilPressreure.c:201:9:GetTrnsOIlPressureBuzzerStatus	4	static

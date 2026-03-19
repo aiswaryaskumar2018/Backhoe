@@ -1,0 +1,13 @@
+../Core/Src/HourMeter.c:36:6:vHourMeterCAN	6
+../Core/Src/HourMeter.c:81:10:GetHourDataValue	1
+../Core/Src/HourMeter.c:86:9:GetHourDataComingOrNotStatus	1
+../Core/Src/HourMeter.c:92:9:GetHourSymbolBlinkStatus	5
+../Core/Src/HourMeter.c:129:6:SetTripAHourValue	1
+../Core/Src/HourMeter.c:134:6:SetTripBHourValue	1
+../Core/Src/HourMeter.c:139:10:GetTripAHourValue	1
+../Core/Src/HourMeter.c:144:10:GetTripBHourValue	1
+../Core/Src/HourMeter.c:149:6:CalculateTripHourdata	6
+../Core/Src/HourMeter.c:189:6:SetHourTripBOverFlowFlag	1
+../Core/Src/HourMeter.c:194:6:SetHourTripAOverFlowFlag	1
+../Core/Src/HourMeter.c:199:9:GetHourTripBOverFlowFlag	1
+../Core/Src/HourMeter.c:204:9:GetHourTripAOverFlowFlag	1

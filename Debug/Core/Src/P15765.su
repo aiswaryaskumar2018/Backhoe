@@ -1,0 +1,3 @@
+../Core/Src/P15765.c:90:6:processDiagnosticsMessages	24	static
+../Core/Src/P15765.c:333:13:copySingleFrameDataToMultiFrame	16	static
+../Core/Src/P15765.c:360:6:HSCANBusOffRecovery	4	static

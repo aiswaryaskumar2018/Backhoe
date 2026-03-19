@@ -1,0 +1,6 @@
+../Core/Src/DefGauge.c:120:6:vDefLevelGauge	16	static
+../Core/Src/DefGauge.c:285:17:DefLevelAntiSlosh	24	static
+../Core/Src/DefGauge.c:354:6:SetDefLevelGaugeBars	16	static
+../Core/Src/DefGauge.c:366:9:GetDefLevelGaugeBars	4	static
+../Core/Src/DefGauge.c:378:6:SetDefLevelGaugePercentage	16	static
+../Core/Src/DefGauge.c:390:9:GetDefLevelGaugePercentage	4	static

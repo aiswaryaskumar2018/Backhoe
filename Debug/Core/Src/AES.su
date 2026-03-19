@@ -1,0 +1,6 @@
+../Core/Src/AES.c:117:13:expandKey	24	static
+../Core/Src/AES.c:174:16:galois_mul2	16	static
+../Core/Src/AES.c:213:6:aes_encr	24	static
+../Core/Src/AES.c:377:6:aes_decr	24	static
+../Core/Src/AES.c:558:6:data_encrypt	192	static
+../Core/Src/AES.c:576:6:data_decrypt	192	static

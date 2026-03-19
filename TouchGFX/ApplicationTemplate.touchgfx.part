@@ -1,0 +1,30 @@
+
+{
+  "Application": {
+    "Name": "N3C",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 32 ],
+    "AvailableLCDs":
+    {
+      "32": "LCD32bpp"
+    },
+    "AvailableResolutions": [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U5F7/5G7",
+    "Platform": "m33",
+    "Toolchain": "STM32CubeIDE",
+    "ProjectFile": "../N3C.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+    ],
+    "AdditionalFeatures": [
+    ]
+  },
+  "Version": "4.24.0"
+}

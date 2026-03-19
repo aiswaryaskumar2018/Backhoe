@@ -1,0 +1,6 @@
+../Core/Src/TransOilTemp.c:91:6:vTransOIL_TempAnlaogProcess	24	static
+../Core/Src/TransOilTemp.c:253:10:GetTransOilTempCANTxData	4	static
+../Core/Src/TransOilTemp.c:259:9:GetTransOilTempVaLue	4	static
+../Core/Src/TransOilTemp.c:264:9:GetTransOilTempWarningBuzzerStatus	4	static
+../Core/Src/TransOilTemp.c:270:9:GetTransOilTempBarValueInplaceOfAdBlueGauge	4	static
+../Core/Src/TransOilTemp.c:275:10:GetAveragingAdcValue	24	static

@@ -1,0 +1,2 @@
+../Core/Src/Speedo.c:33:10:GetFrequencyValue	32	static
+../Core/Src/Speedo.c:115:10:GetVehicleSpeed	16	static

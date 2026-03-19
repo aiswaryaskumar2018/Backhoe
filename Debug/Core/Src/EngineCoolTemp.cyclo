@@ -1,0 +1,6 @@
+../Core/Src/EngineCoolTemp.c:117:6:vEngineCoolTempLevelGauge	59
+../Core/Src/EngineCoolTemp.c:308:6:SetEngineCoolTempLevelGaugeBars	1
+../Core/Src/EngineCoolTemp.c:320:9:GetEngineCoolTempLevelGaugeBars	1
+../Core/Src/EngineCoolTemp.c:325:9:GetEngineCoolTempWarningLampStatus	7
+../Core/Src/EngineCoolTemp.c:369:9:GetEngineCoolTempBuzzerStatus	1
+../Core/Src/EngineCoolTemp.c:374:9:GetEngineCoolTempValue	1

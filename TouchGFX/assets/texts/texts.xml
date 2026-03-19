@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_2QOW" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_JH29" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_MZ92" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_N3AU" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QORF" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_8D7R" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UVT8" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_B6EJ" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_7Z2H" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_RPGK" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QU66" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_4JX7" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0XZA" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_72I9" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_T3RQ" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_DE6C" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3HK7" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_E5AF" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KXSB" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_TDIW" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PSGY" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_A418" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EWR2" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">g</Translation>
+      </Text>
+      <Text Id="__SingleUse_51AU" Alignment="Center" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_HAT4" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_3KLC" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_SIEA" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_X3MK" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5CTE" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_9N79" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3TWJ" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_F6J2" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_WEBW" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_JVGW" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CPD9" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_8VCW" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OAX5" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_P81K" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_2XGZ" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_NR8S" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0P3M" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_GWBX" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_24EX" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_R82C" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_908M" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_LGSJ" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_VRIS" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_JXGD" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_E3JA" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_CRRH" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CSJR" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_9FE8" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_Z1BA" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_A3MY" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_XEJ1" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_NGDU" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9XJ6" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_Y473" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6GPN" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_G34H" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6W2Z" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_GH9A" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_J7Y2" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_F9WB" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5TFP" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_E3U8" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_H0WP" Alignment="Left" TypographyId="arial_bold_30">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="__SingleUse_P0Y1" Alignment="Center" TypographyId="arial_bold_30">
+        <Translation Language="GB">&lt;value&gt;%</Translation>
+      </Text>
+      <Text Id="__SingleUse_SQT1" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_BZAP" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_YZTU" Alignment="Right" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OUU1" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">kPa</Translation>
+      </Text>
+      <Text Id="__SingleUse_V23Q" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">DPF - </Translation>
+      </Text>
+      <Text Id="__SingleUse_9MQ9" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_CSRP" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IQVU" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_GVNQ" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PESN" Alignment="Center" TypographyId="arial_10">
+        <Translation Language="GB">hr</Translation>
+      </Text>
+      <Text Id="__SingleUse_M6O8" Alignment="Center" TypographyId="arial_10">
+        <Translation Language="GB">hr</Translation>
+      </Text>
+      <Text Id="__SingleUse_6HM3" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_JYCN" Alignment="Right" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_XXHA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_J8RQ" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">BAR</Translation>
+      </Text>
+      <Text Id="__SingleUse_6CB4" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_SGJ0" Alignment="Right" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QH9K" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">ODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_ULLF" Alignment="Left" TypographyId="handel_gothic">
+        <Translation Language="GB">  SPN      FMI   PCODES</Translation>
+      </Text>
+      <Text Id="__SingleUse_223H" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_SZWW" Alignment="Right" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IJ0U" Alignment="Center" TypographyId="arial">
+        <Translation Language="GB">V</Translation>
+      </Text>
+      <Text Id="__SingleUse_8SMC" Alignment="Center" TypographyId="arial_10">
+        <Translation Language="GB">BAR</Translation>
+      </Text>
+      <Text Id="__SingleUse_OOPG" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_XPI4" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_SL5F" Alignment="Right" TypographyId="arial">
+        <Translation Language="GB">&lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OZ8C" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">AP</Translation>
+      </Text>
+      <Text Id="__SingleUse_DUV5" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_U9PB" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2M4" Alignment="Right" TypographyId="arial_20">
+        <Translation Language="GB">&lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_394L" Alignment="Center" TypographyId="arial_10">
+        <Translation Language="GB">km</Translation>
+      </Text>
+      <Text Id="__SingleUse_PEAV" Alignment="Left" TypographyId="aria_8">
+        <Translation Language="GB">A</Translation>
+      </Text>
+      <Text Id="__SingleUse_1DJM" Alignment="Center" TypographyId="aria_8">
+        <Translation Language="GB">B</Translation>
+      </Text>
+      <Text Id="__SingleUse_9N7V" Alignment="Center" TypographyId="arial_20">
+        <Translation Language="GB">TRIP</Translation>
+      </Text>
+      <Text Id="__SingleUse_KBFF" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">%</Translation>
+      </Text>
+      <Text Id="__SingleUse_DVMD" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_YOKG" Alignment="Right" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_EI3R" Alignment="Left" TypographyId="arial_10">
+        <Translation Language="GB">km</Translation>
+      </Text>
+      <Text Id="__SingleUse_4JFC" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">SOOT LOAD</Translation>
+      </Text>
+      <Text Id="__SingleUse_7LCB" Alignment="Left" TypographyId="ARIAL_14PX">
+        <Translation Language="GB">km/h</Translation>
+      </Text>
+      <Text Id="__SingleUse_8LQX" Alignment="Left" TypographyId="arial_bold_30">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_G3MT" Alignment="Center" TypographyId="arial_bold_30">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TG7F" Alignment="Left" TypographyId="arial">
+        <Translation Language="GB">rpm</Translation>
+      </Text>
+      <Text Id="__SingleUse_MUYE" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_T814" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_8QO8" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_M34N" Alignment="Left" TypographyId="arial_20">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_OO1K" Alignment="Right" TypographyId="arial_20">
+        <Translation Language="GB">  &lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_D8XA" Alignment="Right" TypographyId="arial_20">
+        <Translation Language="GB">&lt;value&gt;.&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_MDK4" Alignment="Left" TypographyId="Arial_Counter">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_H7SM" Alignment="Center" TypographyId="Arial_Counter">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="13" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Arial_Counter" Font="arialbd.ttf" Size="66" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="arial" Font="arial.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,0x20-0x7E" />
+    <Typography Id="arial_bold_30" Font="arialbd.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="%" WildcardCharacterRanges="0-9,A-Z" />
+    <Typography Id="ARIAL_14PX" Font="arial.ttf" Size="13" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,A-Z,a-z" />
+    <Typography Id="arial_20" Font="arial.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="arial_10" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9,a-z,A-Z" />
+    <Typography Id="handel_gothic" Font="Saira_Expanded-Bold.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="/," WildcardCharacterRanges="A-Z,a-z" />
+    <Typography Id="aria_8" Font="verdana.ttf" Size="9" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Georgia" Font="georgiab.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="arial_bold14" Font="Saira_Condensed-Bold.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="A-Z,0-9" />
+  </Typographies>
+</TextDatabase>

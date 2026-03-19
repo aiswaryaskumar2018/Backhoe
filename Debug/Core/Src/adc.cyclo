@@ -1,0 +1,3 @@
+../Core/Src/adc.c:22:6:AdcDataProcessing	7
+../Core/Src/adc.c:74:10:GetADCValue	1
+../Core/Src/adc.c:79:10:GetADCValueTransOilTemp	1

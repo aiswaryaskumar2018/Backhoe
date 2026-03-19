@@ -1,0 +1,3 @@
+../Core/Src/P15765.c:90:6:processDiagnosticsMessages	50
+../Core/Src/P15765.c:333:13:copySingleFrameDataToMultiFrame	2
+../Core/Src/P15765.c:360:6:HSCANBusOffRecovery	1

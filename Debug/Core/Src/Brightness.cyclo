@@ -1,0 +1,2 @@
+../Core/Src/Brightness.c:28:6:TftBrightNessProcess	11
+../Core/Src/Brightness.c:91:9:GetBrightnessLevelBars	1

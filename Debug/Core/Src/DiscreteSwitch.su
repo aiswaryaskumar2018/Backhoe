@@ -1,0 +1,5 @@
+../Core/Src/DiscreteSwitch.c:47:10:eGetMODESwitchStatus	16	static
+../Core/Src/DiscreteSwitch.c:117:10:eGetSETSwitchStatus	16	static
+../Core/Src/DiscreteSwitch.c:183:16:Get_MODE_SwitchStatus	16	static
+../Core/Src/DiscreteSwitch.c:199:16:Get_SET_SwitchStatus	16	static
+../Core/Src/DiscreteSwitch.c:223:6:vResetButtonTimeStamps	8	static

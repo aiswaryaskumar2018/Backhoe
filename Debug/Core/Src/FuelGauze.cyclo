@@ -1,0 +1,4 @@
+../Core/Src/FuelGauze.c:63:6:fuel_gauge_Process	65
+../Core/Src/FuelGauze.c:226:9:GetFuelCANTxData	1
+../Core/Src/FuelGauze.c:231:9:GetFuelGaugeBar	1
+../Core/Src/FuelGauze.c:236:9:GetFuelWarningBuzzerStatus	1

@@ -1,0 +1,2 @@
+../Core/Src/curve.c:327:6:vGetCurveDataValue	32	static
+../Core/Src/curve.c:412:16:_iGetTableValue	32	static

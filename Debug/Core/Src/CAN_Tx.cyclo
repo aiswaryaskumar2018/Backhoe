@@ -1,0 +1,5 @@
+../Core/Src/CAN_Tx.c:37:6:CAN_Tx_SendMsg	1
+../Core/Src/CAN_Tx.c:46:13:CAN_TxHourAndSootLoad	4
+../Core/Src/CAN_Tx.c:78:6:HourRequestMessageOneTimeSend	2
+../Core/Src/CAN_Tx.c:100:13:CAN_Tx_SendMsg_fuelgauge	2
+../Core/Src/CAN_Tx.c:117:13:CAN_Tx_SendMsg_Trx_Oil_Temp	2
